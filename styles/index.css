@@ -64,8 +64,6 @@ body {
     text-align: center;
     font-weight: bold;
     margin: 10px;
-   
-
 }
 
 /* Bottone bianco */
@@ -88,7 +86,7 @@ body {
     color: white;
     text-align: left;
     border-width: 50px;
-    padding-top: 15px;
+    padding-top: 50px;
     padding-left: 15px;
     padding-right: 30px;
     line-height: 1;
@@ -108,7 +106,8 @@ body {
     background-color: rgba(93, 100, 209);
     border-color: rgba(93, 100, 209);
     border-radius: 30px;
-    margin :25px
+    margin :35px;
+    position:relative;
 }
 
 .card-image {
@@ -122,3 +121,18 @@ body {
    
 }
 
+.icona2 {
+    width:100px;
+    height:auto;
+    position:absolute;
+    top: -50px ;
+    left:50px;
+}
+
+.icona3 {
+    width:100px;
+    height:auto;
+    position:absolute;
+    top: -50px ;
+    left:50px;
+}
