@@ -40,17 +40,58 @@ body {
 .site-body {
     background-color:rgba(25, 29, 123) ;
 }
+.title1 {
+    color: white;
+    border-width: 50px;
+    text-align: center;
+    padding: 1px 80px;
+    margin-top: 70px;
+    line-height: 1;
+}
 
+.text1 {
+    color: white;
+     text-align: center;
+    border-width: 50px;
+    padding: 15px 80px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+/* Bottone bianco */
+.btn-primary {
+    background: white;
+    color: black;
+}
+
+/* Bottone viola */
+.btn-secondary {
+    background: rgba(88, 101, 242);
+    color: white;
+}
 
 .card-title {
-   color: white;
-   border-width: 50px;
-   text-align:left;
-    padding: 1px 20px 60px
+    color: white;
+    text-align: left;
+    border-width: 50px;
+   padding:30px 80px;
+    line-height: 1;
 }
+
 
 .card-text {
     color: white;
+     text-align: left;
+    border-width: 50px;
+    padding: 15px 80px;
 }
 
 .card {
