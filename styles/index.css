@@ -40,6 +40,7 @@ body {
 .site-body {
     background-color:rgba(25, 29, 123) ;
 }
+
 .title1 {
     color: white;
     border-width: 50px;
@@ -63,35 +64,44 @@ body {
     text-align: center;
     font-weight: bold;
     margin: 10px;
-    transition: 0.3s ease;
+   
+
 }
 
 /* Bottone bianco */
 .btn-primary {
     background: white;
-    color: black;
+    color: black; 
+    position:relative;
+    left: 25%;
 }
 
 /* Bottone viola */
 .btn-secondary {
     background: rgba(88, 101, 242);
     color: white;
+    position:relative;
+    left: 20%;
 }
 
 .card-title {
     color: white;
     text-align: left;
     border-width: 50px;
-   padding:30px 80px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 30px;
     line-height: 1;
 }
 
 
 .card-text {
     color: white;
-     text-align: left;
+    text-align: left;
     border-width: 50px;
-    padding: 15px 80px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 30px;
 }
 
 .card {
@@ -102,8 +112,13 @@ body {
 }
 
 .card-image {
-    width: 100x;
-    height: 75px;
-    margin-right: 15px;
-    border-radius: 30px;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+   
 }
+
