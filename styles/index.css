@@ -30,15 +30,14 @@ body {
 
 /*header*/
 .header-image {
-   background-size: cover;     
-    background-position: center; 
-    background-repeat: no-repeat;  
     width: 100%;
+    display:block;
 }
 
 /*section*/
-.site-body {
-    background-color:rgba(25, 29, 123) ;
+.site-main {
+    background-color:rgba(25, 29, 123);
+    padding: 30px;
 }
 
 .title1 {
@@ -58,67 +57,66 @@ body {
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 25px;
+    display: block;
+    padding: 10px 10px;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
-    margin: 10px;
+    width: 100%;
+
 }
 
 /* Bottone bianco */
 .btn-primary {
     background: white;
     color: black; 
-    position:relative;
-    left: 25%;
+    margin-bottom: 20px;
+
+
 }
 
 /* Bottone viola */
 .btn-secondary {
     background: rgba(88, 101, 242);
     color: white;
-    position:relative;
-    left: 20%;
+    margin-bottom: 50px;
 }
 
 .card-title {
     color: white;
-    text-align: left;
-    border-width: 50px;
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 30px;
     line-height: 1;
+    text-align: left;
+    padding:30px;
+    margin-top: 50px;
 }
 
 
 .card-text {
     color: white;
-    text-align: left;
-    border-width: 50px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .card {
     background-color: rgba(93, 100, 209);
     border-color: rgba(93, 100, 209);
     border-radius: 30px;
-    margin :35px;
     position:relative;
+    width:100%;
+}
+
+.card2 {
+    margin-bottom: 40px;
 }
 
 .card-image {
-    width: 400px;
-    height: auto;
+    
     border-radius: 15px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-bottom: 60px;
-   
+    display:block;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto 0;
+    padding: 60px 25px;
 }
 
 .icona2 {
